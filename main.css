@@ -1,0 +1,201 @@
+html, body,
+header,
+main,
+nav,
+footer,
+h1,
+p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #555;
+  background: url(http://www.designbolts.com/wp-content/uploads/2012/11/Free-medium-dark-Tileable-Pattern-Website-Background.jpg) top left repeat;
+  height: 100%;
+  font-family: helvetica, verdana, sans-serif;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover {
+  color: #bbb;
+}
+
+header {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 150px;
+  box-shadow: 10px 2px 10px #222;
+}
+
+header h1 {
+  font-size: 60px;
+  padding: 35px 0 2px 80px;
+}
+
+header p {
+  font-size: 20px;
+  padding: 0 0 10px 80px;
+  font-family: Times, sans-serif;
+}
+
+main {
+  background-color: #e2e2e2;
+  display: table;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+secion {
+  display: block;
+}
+
+#first {
+  margin-top: 30px;
+}
+
+article {
+  float:left;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 20px 20px 10px 20px;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 3px 5px #999;
+}
+
+article h1 {
+  display: inline;
+  font-size: 30px;
+}
+
+.line {
+  margin-top: 20px;
+  border-top: 2px solid #999;
+}
+
+article p {
+  padding: 15px 0 10px 0;
+  text-align: justify;
+}
+
+article small {
+  float: right;
+  display: inline;
+  font-size: 12px;
+}
+
+span {
+  font-size: 53px;
+  float: left;
+  margin: -8px 10px 0 0;
+  font-weight: bold;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+aside {
+  float: right;
+  background-color: #A6CFF1;
+  width: 30%;
+  height: 375px;
+  margin-left: auto;
+  border-bottom-left-radius: 20px;
+  box-shadow: -1px 3px 10px #666;
+}
+
+.avatar {
+  float: right;
+  overflow: hidden;
+  margin: 25px 30px 0 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid #fff;
+}
+
+.avatar img {
+  height: 100%;
+}
+
+aside h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin: 25px 0 0 20px;
+}
+
+aside hr {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+aside p {
+  margin: 15px 0 0 20px;
+  font-size: 14px;
+}
+
+aside p a {
+  color: #888;
+}
+
+aside p a:hover {
+  color: #000;
+}
+
+blockquote {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: right;
+  border-top: 2px solid #77aadd;
+  border-bottom: 2px solid #77aadd;
+  border-radius: 15px;
+  color: #fff;
+  line-height: 150%;
+}
+
+blockquote small {
+  font-size: 10px;
+}
+
+nav {
+  background-color: #555;
+  height: 60px;
+  margin-top: -30px;
+}
+
+nav ul {
+  padding-top: 28px;
+}
+
+nav li {
+  display: inline;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+nav a {
+  color: #fff;
+}
+
+footer {
+  background-color: #fff;
+  clear: both;
+  height: 40px;
+  padding: 10px 0 0 30px;
+  font-size: 12px;
+}
